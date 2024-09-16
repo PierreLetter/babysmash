@@ -29,15 +29,15 @@ namespace BabySmash
         {
             brushToString = new Dictionary<Color, string>
                                 {
-                                    {Colors.Red, "Red"},
-                                    {Colors.Blue, "Blue"},
-                                    {Colors.Yellow, "Yellow"},
-                                    {Colors.Green, "Green"},
-                                    {Colors.Purple, "Purple"},
-                                    {Colors.Pink, "Pink"},
+                                    {Colors.Red, "Rouge"},
+                                    {Colors.Blue, "Bleu"},
+                                    {Colors.Yellow, "Jaune"},
+                                    {Colors.Green, "Vert"},
+                                    {Colors.Purple, "Violet"},
+                                    {Colors.Pink, "Rose"},
                                     {Colors.Orange, "Orange"},
-                                    {Colors.Tan, "Tan"},
-                                    {Colors.Gray, "Gray"}
+                                    {Colors.Tan, "Marron"},
+                                    {Colors.Gray, "Gris"}
                                 };
 
             someColors = new Color[brushToString.Count];
